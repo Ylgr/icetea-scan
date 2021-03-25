@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Prism from 'prismjs';
 import { tweb3 } from '../../../service/tweb3';
-import { TxOp } from '@iceteachain/common';
+import { TxOp } from '@glitchdefi/common';
 import Tabs, { TabPane } from 'rc-tabs';
 import TabContent from 'rc-tabs/lib/TabContent';
 import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';

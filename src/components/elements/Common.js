@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ContractMode } from '@iceteachain/common';
+import { ContractMode } from '@glitchdefi/common';
 import moment from 'moment';
 import { toTEA, diffTime } from '../../utils';
 import { Button } from 'antd';

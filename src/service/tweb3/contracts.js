@@ -1,5 +1,5 @@
 import tweb3 from './tweb3';
-import { ecc, AccountType } from '@iceteachain/common';
+import { ecc, AccountType } from '@glitchdefi/common';
 import store from '../../store';
 import * as actions from '../../store/actions';
 

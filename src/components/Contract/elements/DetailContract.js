@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { codec } from '@iceteachain/common';
+import { codec } from '@glitchdefi/common';
 import Select from 'rc-select';
 
 import PaginationPro from '../../elements/PaginationPro';
