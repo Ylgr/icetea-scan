@@ -403,7 +403,7 @@ class CallContract extends Component {
 
     formData = encodeURIComponent(JSON.stringify(formData));
     const url = encodeURIComponent('http://localhost:3006/address/' + address + '?txSigned=');
-    window.location = 'https://wallet.icetea.io/signTransaction/' + formData + '/' + url;
+    window.location = 'http://172.16.1.209:4000/signTransaction/' + formData + '/' + url;
   };
 
   sendTransactionWithIceteaWallet = async (func, index = 2) => {
