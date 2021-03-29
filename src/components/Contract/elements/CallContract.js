@@ -402,7 +402,7 @@ class CallContract extends Component {
     formData.data = txData;
 
     formData = encodeURIComponent(JSON.stringify(formData));
-    const url = encodeURIComponent('http://localhost:3006/address/' + address + '?txSigned=');
+    const url = encodeURIComponent('http://172.16.1.209:3006/address/' + address + '?txSigned=');
     window.location = 'http://172.16.1.209:4000/signTransaction/' + formData + '/' + url;
   };
 
